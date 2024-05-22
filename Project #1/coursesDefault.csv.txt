@@ -1,0 +1,18 @@
+uid,"Course Code", "Course Title", Credit Hours, Grade
+20,ENC,English,3,4
+20,COP,Comp Progr,3,3
+30,ENC,English,3,3.5
+30,COP,Comp Progr,3,3
+40,PHY,Physics,4,1
+40,ART,arts,2,2
+40,CHM,Chemistry,4,3
+50,PHY,Physics,4,4
+50,ART,arts,2,4
+50,PHY,Physics,4,4
+50,ART,arts,2,4
+60,PHY,Physics,4,3
+60,COP,Comp Progr,3,3
+50,PHY,Physics,4,4
+50,ART,arts,2,4
+50,PHY,Physics,4,4
+50,ART,arts,2,4

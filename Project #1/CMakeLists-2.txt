@@ -1,0 +1,49 @@
+cmake_minimum_required(VERSION 3.0)
+project(untitled)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(node_test test/jnode_test.cpp linked-list/JNode.h linked-list/JLinkedList.h)
+
+add_executable(list_test test/jlinkedlist_test.cpp linked-list/JNode.h linked-list/JLinkedList.h entity/Student.h entity/Person.h entity/Course.h entity/Records.h linked-list/SLinkedList.h linked-list/SNode.h test/snode_test.cpp test/slinkedlist_test.cpp test/test.cpp entity/Person.cpp "entity/Student.cpp" entity/Course.cpp entity/Records.cpp test/test_a.cpp)
+
+add_executable(snode_test test/snode_test.cpp linked-list/SNode.h )
+
+add_executable(slist_test test/slinkedlist_test.cpp linked-list/SNode.h )
+
+add_executable(test test/test.cpp entity/Person.cpp entity/Person.h entity/Course.cpp entity/Course.h linked-list/SLinkedList.h linked-list/SNode.h entity/Student.h entity/Student.cpp entity/Records.cpp entity/Records.h)
+
+add_executable(test_a test/test_a.cpp util/FileHandler.h linked-list/JNode.h linked-list/JLinkedList.h entity/Student.h entity/Person.h entity/Course.h entity/Records.h linked-list/SLinkedList.h linked-list/SNode.h entity/Person.cpp "entity/Student.cpp" entity/Course.cpp entity/Records.cpp test/test_a.cpp)
+
+add_executable(main
+        main.cpp
+        entity/Course.cpp
+        entity/Course.h
+        entity/Person.cpp
+        entity/Person.h
+        entity/Records.cpp
+        entity/Records.h
+        entity/Student.cpp
+        entity/Student.h
+        linked-list/JLinkedList.h
+        linked-list/JNode.h
+        linked-list/SLinkedList.h
+        linked-list/SNode.h
+        util/FileHandler.h
+        )
+
+add_executable(main2
+        entity/Course.cpp
+        entity/Course.h
+        entity/Person.cpp
+        entity/Person.h
+        entity/Records.cpp
+        entity/Records.h
+        entity/Student.cpp
+        entity/Student.h
+        linked-list/JLinkedList.h
+        linked-list/JNode.h
+        linked-list/SLinkedList.h
+        linked-list/SNode.h
+        util/FileHandler.h
+        main2.cpp)

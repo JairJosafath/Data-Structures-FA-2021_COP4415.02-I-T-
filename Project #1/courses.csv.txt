@@ -1,0 +1,7 @@
+"Course Code", "Course Title", Credit Hours
+PHY,Physics,4
+ART,arts,2
+CHM,Chemistry,4
+ENC,English,3
+COP,Comp Progr,3
+ML,MachineLearning,3
